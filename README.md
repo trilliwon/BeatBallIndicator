@@ -22,6 +22,9 @@ activityIndicatorView.startAnimating()
 
 ## Requirements
 
+iOS8.0 +
+Swift3.0 +
+
 ## Installation
 
 BeatBallIndicator is available through [CocoaPods](http://cocoapods.org). To install
