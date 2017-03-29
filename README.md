@@ -8,7 +8,17 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+---
 ![](https://github.com/trilliwon/BeatBallIndicator/blob/master/example.gif?raw=true)
+---
+
+## How to use
+
+```Swift
+let activityIndicatorView = BeatBallIndicatorView(frame: frame)
+activityIndicatorView.startAnimating()
+```
 
 ## Requirements
 
