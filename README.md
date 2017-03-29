@@ -22,8 +22,8 @@ activityIndicatorView.startAnimating()
 
 ## Requirements
 
-iOS8.0 +
-Swift3.0 +
++ iOS8.0 +
++ Swift3.0 +
 
 ## Installation
 
