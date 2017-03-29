@@ -1,24 +1,17 @@
-//
-//  ViewController.swift
-//  BeatBallIndicator
-//
-//  Created by trilliwon on 03/29/2017.
-//  Copyright (c) 2017 trilliwon. All rights reserved.
-//
-
 import UIKit
+import BeatBallIndicator
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, BeatBallIndicatorViewable {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+	override func viewDidLoad() {
+		super.viewDidLoad()
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+		self.view.backgroundColor = .black
+		let frame = CGRect(x: 100, y: 100, width: 300, height: 50)
+		let activityIndicatorView = BeatBallIndicatorView(frame: frame)
+		activityIndicatorView.center = self.view.center
+		self.view.addSubview(activityIndicatorView)
+		activityIndicatorView.startAnimating()
+	}
 }
 

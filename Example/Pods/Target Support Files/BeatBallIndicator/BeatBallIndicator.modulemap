@@ -1,0 +1,6 @@
+framework module BeatBallIndicator {
+  umbrella header "BeatBallIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}
