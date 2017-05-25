@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E37E99EE1ED68EE500488A18 /* BeatBallIndicator.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E37E99ED1ED68EE500488A18 /* BeatBallIndicator.podspec */; };
+		E37E99F01ED68EEB00488A18 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E37E99EF1ED68EEB00488A18 /* README.md */; };
+		E3A929C41ED68DCD007AFA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A929C31ED68DCD007AFA7E /* AppDelegate.swift */; };
+		E3A929C61ED68DCD007AFA7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A929C51ED68DCD007AFA7E /* ViewController.swift */; };
+		E3A929C91ED68DCD007AFA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A929C71ED68DCD007AFA7E /* Main.storyboard */; };
+		E3A929CB1ED68DCD007AFA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A929CA1ED68DCD007AFA7E /* Assets.xcassets */; };
+		E3A929CE1ED68DCD007AFA7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A929CC1ED68DCD007AFA7E /* LaunchScreen.storyboard */; };
+		E3A929D91ED68DCD007AFA7E /* BeatBallIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A929D81ED68DCD007AFA7E /* BeatBallIndicatorTests.swift */; };
+		E3A929E91ED68E0D007AFA7E /* BeatBallIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A929E31ED68E0D007AFA7E /* BeatBallIndicatorAnimationBallBeat.swift */; };
+		E3A929EA1ED68E0D007AFA7E /* BeatBallIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A929E41ED68E0D007AFA7E /* BeatBallIndicatorAnimationDelegate.swift */; };
+		E3A929EB1ED68E0D007AFA7E /* BeatBallIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A929E51ED68E0D007AFA7E /* BeatBallIndicatorPresenter.swift */; };
+		E3A929EC1ED68E0D007AFA7E /* BeatBallIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A929E61ED68E0D007AFA7E /* BeatBallIndicatorShape.swift */; };
+		E3A929ED1ED68E0D007AFA7E /* BeatBallIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A929E71ED68E0D007AFA7E /* BeatBallIndicatorView.swift */; };
+		E3A929EE1ED68E0D007AFA7E /* BeatBallIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A929E81ED68E0D007AFA7E /* BeatBallIndicatorViewable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3A929D51ED68DCD007AFA7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3A929B81ED68DCD007AFA7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3A929BF1ED68DCD007AFA7E;
+			remoteInfo = BeatBallIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E37E99ED1ED68EE500488A18 /* BeatBallIndicator.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BeatBallIndicator.podspec; sourceTree = "<group>"; };
+		E37E99EF1ED68EEB00488A18 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E3A929C01ED68DCD007AFA7E /* BeatBallIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatBallIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A929C31ED68DCD007AFA7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3A929C51ED68DCD007AFA7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3A929C81ED68DCD007AFA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3A929CA1ED68DCD007AFA7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3A929CD1ED68DCD007AFA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3A929CF1ED68DCD007AFA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A929D41ED68DCD007AFA7E /* BeatBallIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatBallIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A929D81ED68DCD007AFA7E /* BeatBallIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatBallIndicatorTests.swift; sourceTree = "<group>"; };
+		E3A929DA1ED68DCD007AFA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A929E31ED68E0D007AFA7E /* BeatBallIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeatBallIndicatorAnimationBallBeat.swift; path = Source/BeatBallIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		E3A929E41ED68E0D007AFA7E /* BeatBallIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeatBallIndicatorAnimationDelegate.swift; path = Source/BeatBallIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		E3A929E51ED68E0D007AFA7E /* BeatBallIndicatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeatBallIndicatorPresenter.swift; path = Source/BeatBallIndicatorPresenter.swift; sourceTree = "<group>"; };
+		E3A929E61ED68E0D007AFA7E /* BeatBallIndicatorShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeatBallIndicatorShape.swift; path = Source/BeatBallIndicatorShape.swift; sourceTree = "<group>"; };
+		E3A929E71ED68E0D007AFA7E /* BeatBallIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeatBallIndicatorView.swift; path = Source/BeatBallIndicatorView.swift; sourceTree = "<group>"; };
+		E3A929E81ED68E0D007AFA7E /* BeatBallIndicatorViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeatBallIndicatorViewable.swift; path = Source/BeatBallIndicatorViewable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3A929BD1ED68DCD007AFA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A929D11ED68DCD007AFA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E37E99F11ED68EEF00488A18 /* meta data */ = {
+			isa = PBXGroup;
+			children = (
+				E37E99ED1ED68EE500488A18 /* BeatBallIndicator.podspec */,
+				E37E99EF1ED68EEB00488A18 /* README.md */,
+			);
+			name = "meta data";
+			sourceTree = "<group>";
+		};
+		E3A929B71ED68DCD007AFA7E = {
+			isa = PBXGroup;
+			children = (
+				E37E99F11ED68EEF00488A18 /* meta data */,
+				E3A929EF1ED68E15007AFA7E /* Source */,
+				E3A929C21ED68DCD007AFA7E /* BeatBallIndicator */,
+				E3A929D71ED68DCD007AFA7E /* BeatBallIndicatorTests */,
+				E3A929C11ED68DCD007AFA7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3A929C11ED68DCD007AFA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3A929C01ED68DCD007AFA7E /* BeatBallIndicator.app */,
+				E3A929D41ED68DCD007AFA7E /* BeatBallIndicatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3A929C21ED68DCD007AFA7E /* BeatBallIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				E3A929C31ED68DCD007AFA7E /* AppDelegate.swift */,
+				E3A929C51ED68DCD007AFA7E /* ViewController.swift */,
+				E3A929C71ED68DCD007AFA7E /* Main.storyboard */,
+				E3A929CA1ED68DCD007AFA7E /* Assets.xcassets */,
+				E3A929CC1ED68DCD007AFA7E /* LaunchScreen.storyboard */,
+				E3A929CF1ED68DCD007AFA7E /* Info.plist */,
+			);
+			path = BeatBallIndicator;
+			sourceTree = "<group>";
+		};
+		E3A929D71ED68DCD007AFA7E /* BeatBallIndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3A929D81ED68DCD007AFA7E /* BeatBallIndicatorTests.swift */,
+				E3A929DA1ED68DCD007AFA7E /* Info.plist */,
+			);
+			path = BeatBallIndicatorTests;
+			sourceTree = "<group>";
+		};
+		E3A929EF1ED68E15007AFA7E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E3A929E31ED68E0D007AFA7E /* BeatBallIndicatorAnimationBallBeat.swift */,
+				E3A929E41ED68E0D007AFA7E /* BeatBallIndicatorAnimationDelegate.swift */,
+				E3A929E51ED68E0D007AFA7E /* BeatBallIndicatorPresenter.swift */,
+				E3A929E61ED68E0D007AFA7E /* BeatBallIndicatorShape.swift */,
+				E3A929E71ED68E0D007AFA7E /* BeatBallIndicatorView.swift */,
+				E3A929E81ED68E0D007AFA7E /* BeatBallIndicatorViewable.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3A929BF1ED68DCD007AFA7E /* BeatBallIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A929DD1ED68DCD007AFA7E /* Build configuration list for PBXNativeTarget "BeatBallIndicator" */;
+			buildPhases = (
+				E3A929BC1ED68DCD007AFA7E /* Sources */,
+				E3A929BD1ED68DCD007AFA7E /* Frameworks */,
+				E3A929BE1ED68DCD007AFA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatBallIndicator;
+			productName = BeatBallIndicator;
+			productReference = E3A929C01ED68DCD007AFA7E /* BeatBallIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3A929D31ED68DCD007AFA7E /* BeatBallIndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A929E01ED68DCD007AFA7E /* Build configuration list for PBXNativeTarget "BeatBallIndicatorTests" */;
+			buildPhases = (
+				E3A929D01ED68DCD007AFA7E /* Sources */,
+				E3A929D11ED68DCD007AFA7E /* Frameworks */,
+				E3A929D21ED68DCD007AFA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3A929D61ED68DCD007AFA7E /* PBXTargetDependency */,
+			);
+			name = BeatBallIndicatorTests;
+			productName = BeatBallIndicatorTests;
+			productReference = E3A929D41ED68DCD007AFA7E /* BeatBallIndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3A929B81ED68DCD007AFA7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Won;
+				TargetAttributes = {
+					E3A929BF1ED68DCD007AFA7E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J2WX5LW4CC;
+						ProvisioningStyle = Automatic;
+					};
+					E3A929D31ED68DCD007AFA7E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J2WX5LW4CC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3A929BF1ED68DCD007AFA7E;
+					};
+				};
+			};
+			buildConfigurationList = E3A929BB1ED68DCD007AFA7E /* Build configuration list for PBXProject "BeatBallIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3A929B71ED68DCD007AFA7E;
+			productRefGroup = E3A929C11ED68DCD007AFA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3A929BF1ED68DCD007AFA7E /* BeatBallIndicator */,
+				E3A929D31ED68DCD007AFA7E /* BeatBallIndicatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3A929BE1ED68DCD007AFA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A929CE1ED68DCD007AFA7E /* LaunchScreen.storyboard in Resources */,
+				E37E99EE1ED68EE500488A18 /* BeatBallIndicator.podspec in Resources */,
+				E3A929CB1ED68DCD007AFA7E /* Assets.xcassets in Resources */,
+				E3A929C91ED68DCD007AFA7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A929D21ED68DCD007AFA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3A929BC1ED68DCD007AFA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A929EB1ED68E0D007AFA7E /* BeatBallIndicatorPresenter.swift in Sources */,
+				E3A929C61ED68DCD007AFA7E /* ViewController.swift in Sources */,
+				E3A929C41ED68DCD007AFA7E /* AppDelegate.swift in Sources */,
+				E3A929EA1ED68E0D007AFA7E /* BeatBallIndicatorAnimationDelegate.swift in Sources */,
+				E3A929ED1ED68E0D007AFA7E /* BeatBallIndicatorView.swift in Sources */,
+				E3A929EE1ED68E0D007AFA7E /* BeatBallIndicatorViewable.swift in Sources */,
+				E37E99F01ED68EEB00488A18 /* README.md in Sources */,
+				E3A929EC1ED68E0D007AFA7E /* BeatBallIndicatorShape.swift in Sources */,
+				E3A929E91ED68E0D007AFA7E /* BeatBallIndicatorAnimationBallBeat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A929D01ED68DCD007AFA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A929D91ED68DCD007AFA7E /* BeatBallIndicatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3A929D61ED68DCD007AFA7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3A929BF1ED68DCD007AFA7E /* BeatBallIndicator */;
+			targetProxy = E3A929D51ED68DCD007AFA7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3A929C71ED68DCD007AFA7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3A929C81ED68DCD007AFA7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3A929CC1ED68DCD007AFA7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3A929CD1ED68DCD007AFA7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3A929DB1ED68DCD007AFA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3A929DC1ED68DCD007AFA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3A929DE1ED68DCD007AFA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2WX5LW4CC;
+				INFOPLIST_FILE = BeatBallIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trilliwon.BeatBallIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E3A929DF1ED68DCD007AFA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2WX5LW4CC;
+				INFOPLIST_FILE = BeatBallIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trilliwon.BeatBallIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E3A929E11ED68DCD007AFA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J2WX5LW4CC;
+				INFOPLIST_FILE = BeatBallIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trilliwon.BeatBallIndicatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatBallIndicator.app/BeatBallIndicator";
+			};
+			name = Debug;
+		};
+		E3A929E21ED68DCD007AFA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J2WX5LW4CC;
+				INFOPLIST_FILE = BeatBallIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trilliwon.BeatBallIndicatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatBallIndicator.app/BeatBallIndicator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3A929BB1ED68DCD007AFA7E /* Build configuration list for PBXProject "BeatBallIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A929DB1ED68DCD007AFA7E /* Debug */,
+				E3A929DC1ED68DCD007AFA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A929DD1ED68DCD007AFA7E /* Build configuration list for PBXNativeTarget "BeatBallIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A929DE1ED68DCD007AFA7E /* Debug */,
+				E3A929DF1ED68DCD007AFA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A929E01ED68DCD007AFA7E /* Build configuration list for PBXNativeTarget "BeatBallIndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A929E11ED68DCD007AFA7E /* Debug */,
+				E3A929E21ED68DCD007AFA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3A929B81ED68DCD007AFA7E /* Project object */;
+}

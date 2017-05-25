@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BeatBallIndicator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Activity Indicator'
 
   s.description      = 'This is a simple activity indicatory for iOS. It is copy of NVAcitivityIndicator type ballBeat 18'
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://facebook.com/trilliwon'
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'BeatBallIndicator/Classes/**/*'
+  s.source_files = 'Source/*'
 end
