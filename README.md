@@ -7,7 +7,8 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+This is a simple activity indicatory for iOS. It is copy of NVAcitivityIndicator type ballBeat 18.
+Download and runt the BeatBallIndicator.xcodeproj
 
 ---
 ![](https://github.com/trilliwon/BeatBallIndicator/blob/master/example.gif?raw=true)
